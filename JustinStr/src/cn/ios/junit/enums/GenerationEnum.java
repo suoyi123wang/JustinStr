@@ -5,9 +5,7 @@ public enum GenerationEnum {
     JAVA_UTIL_COLLECTION("java.util.Collection"),
     OUTPUT_FOLDER("JustinStr_tests")
     ;
-
-
-
+    
     private String value;
 
     GenerationEnum(String value) {
