@@ -30,9 +30,11 @@ The "targetPath" is the path to the jar or class file you will analyze.
 
 We map a regular expression for each of the 48 string APIs and their conditional expressions.
 
-The specific correspondence can be viewed in the table.
+The specific correspondence can be viewed in the table(**JustinStr/API-Regex-Mapping.pdf**). 
 
+The table below shows only part of the mapping table.
 
+![image-20220525235405844](https://tva1.sinaimg.cn/large/e6c9d24egy1h2l38hmpcyj20wq0u0n5w.jpg)
 
 ## 4. Experiment
 
@@ -59,5 +61,11 @@ The benchmark information can be avaiable in the directory "JustinStr/experiment
 <img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h2ky85ixfaj20ug0eemz4.jpg" alt="image-20220525210006626" style="zoom:67%;" />
 
 <img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h2ky8520qij20tk0fkdi2.jpg" alt="image-20220525210042365" style="zoom:67%;" />
+
+| classification                  | IssueID(Commit ID) in JDK                                    |
+| ------------------------------- | ------------------------------------------------------------ |
+| ArrayIndexoutofBoundsException  | I4MWI1, 8279422                                              |
+| StringIndexOutOfBoundsException | 8278186,  8279129, 8279128, 8279198, 8279218, 8279336,      8279342, 8279341, 8279362, 8279423, 8279424,     0ccabf89898e216c0bd828bfde840338baba7d11(Commit ID),     96a1333c77a8473d9ae06f304b9fdbe21212bd18(Commit ID),     e67420cefce8c5c26274b02a5430d31411a404a9(Commit ID) |
+| Infinite Loop                   | 8278993                                                      |
 
 **Our approach can effectively characterize string parameters with regular expressions. The test cases generated based on it has efficiently found 81(+28%) more defects with an extreme low cost of time. Besides, the first two test cases in JustinStr have triggered 74% of the bugs, while in EvoSuite have triggered 36%. JustinStr has found 14 new bugs on JDK which are all confirmed by the JDK devepolers.**
