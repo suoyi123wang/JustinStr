@@ -16,7 +16,7 @@ java -jar JustinStr.jar "jrePath" "targetPath"
 
 - JustinStr will output two json files.
 
-  The file "regex.json" expresses the constraints of the obtained string parameters with regular expressions.
+  The file "regex.json" expresses the constraints of the string parameters with regular expressions.
 
   And the file "stringData.json" generates a string according to the regular expression in "regex.json".
 
