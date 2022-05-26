@@ -34,7 +34,7 @@ The specific correspondence can be viewed in the table(**JustinStr/API-Regex-Map
 
 The table below shows only *part* of the mapping table.
 
-![image-20220525235405844](https://tva1.sinaimg.cn/large/e6c9d24egy1h2l38hmpcyj20wq0u0n5w.jpg)
+![image-20220526141334441](https://tva1.sinaimg.cn/large/e6c9d24egy1h2ls2uiv9tj20u00wt11o.jpg)
 
 ## 4. Experiment
 
@@ -58,7 +58,7 @@ The benchmark information can be avaiable in the directory "JustinStr/experiment
 
 ### 4.4 RQ3: How does JustinStr perform on finding bugs?
 
-<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h2l80458yvj20oo0cogn3.jpg" alt="image-20220526023859686" style="zoom:50%;" />
+<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h2lpy4am3bj20z20hewh9.jpg" alt="image-20220526125955550" style="zoom: 33%;" />
 
 <img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h2ky8520qij20tk0fkdi2.jpg" alt="image-20220525210042365" style="zoom: 50%;" />
 
