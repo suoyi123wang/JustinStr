@@ -68,4 +68,19 @@ The benchmark information can be avaiable in the directory "JustinStr/experiment
 | StringIndexOutOfBoundsException | 8278186,  8279129, 8279128, 8279198, 8279218, 8279336,      8279342, 8279341, 8279362, 8279423, 8279424,     0ccabf89898e216c0bd828bfde840338baba7d11(Commit ID),     96a1333c77a8473d9ae06f304b9fdbe21212bd18(Commit ID),     e67420cefce8c5c26274b02a5430d31411a404a9(Commit ID) |
 | Infinite Loop                   | 8278993                                                      |
 
+**Details for the Commit ID:**
+
+- https://github.com/openjdk/nashorn/commit/0ccabf89898e216c0bd828bfde840338baba7d11
+
+  ![image-20220711094759604](https://tva1.sinaimg.cn/large/e6c9d24egy1h42qwncehoj227m0hudmr.jpg)
+
+- https://github.com/openjdk/jdk/commit/96a1333c77a8473d9ae06f304b9fdbe21212bd18
+
+  ![image-20220711095105769](https://tva1.sinaimg.cn/large/e6c9d24egy1h42qztq7ksj22oc0iqdnf.jpg)
+
+- https://github.com/openjdk/jdk/commit/e67420cefce8c5c26274b02a5430d31411a404a9
+
+  ![image-20220711095227938](https://tva1.sinaimg.cn/large/e6c9d24egy1h42r18x377j22i20f2aet.jpg)
+
 **Our approach can effectively characterize string parameters with regular expressions. The test cases generated based on it has efficiently found 81(+28%) more defects with an extreme low cost of time. Besides, the first two test cases in JustinStr have triggered 74% of the bugs, while in EvoSuite have triggered 36%. JustinStr has found 14 new bugs on JDK which are all confirmed by the JDK devepolers.**
+
