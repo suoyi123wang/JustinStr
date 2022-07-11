@@ -30,9 +30,9 @@ java -jar JustinStr.jar "jrePath" "targetPath"
 
 We map a regular expression for each of the 48 string APIs and their conditional expressions.
 
-The specific correspondence can be viewed in the table(**JustinStr/API-Regex-Mapping.pdf**).
+All the specific correspondence can be viewed in the table(**JustinStr/API-Regex-Mapping.pdf**).
 
-The table below shows only *part* of the mapping table.
+The table below shows only ***part*** of the mapping table.
 
 ![image-20220526141334441](https://tva1.sinaimg.cn/large/e6c9d24egy1h2ls2uiv9tj20u00wt11o.jpg)
 
@@ -75,6 +75,10 @@ The benchmark information can be avaiable in the directory "JustinStr/experiment
   ![image-20220711094759604](https://tva1.sinaimg.cn/large/e6c9d24egy1h42qwncehoj227m0hudmr.jpg)
 
 - https://github.com/openjdk/jdk/commit/96a1333c77a8473d9ae06f304b9fdbe21212bd18
+
+  The origin test case is: 
+
+  <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h432ufjj8ij21g80pydj3.jpg" alt="image-20220711164105169" style="zoom: 33%;" />
 
   ![image-20220711095105769](https://tva1.sinaimg.cn/large/e6c9d24egy1h42qztq7ksj22oc0iqdnf.jpg)
 
