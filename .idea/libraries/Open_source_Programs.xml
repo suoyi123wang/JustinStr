@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Open source Programs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/experiment/dataset for RQ2 &amp; RQ3/Open source Programs/closure-compiler-v20220202.jar!/" />
+      <root url="jar://$PROJECT_DIR$/experiment/dataset for RQ2 &amp; RQ3/Open source Programs/mysql-connector-java-8.0.29.jar!/" />
+      <root url="jar://$PROJECT_DIR$/experiment/dataset for RQ2 &amp; RQ3/Open source Programs/poi-ooxml-5.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/experiment/dataset for RQ2 &amp; RQ3/Open source Programs/commons-lang3-3.12.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/experiment/dataset for RQ2 &amp; RQ3/Open source Programs/commons-io-2.11.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

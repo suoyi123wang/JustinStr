@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JustinStr">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/tool/JustinStr_jar/JustinStr.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

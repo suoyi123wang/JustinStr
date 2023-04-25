@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="tool">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/tool/evosuite-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/tool/JustinStr-evosuite-1.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
